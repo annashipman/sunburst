@@ -21,7 +21,13 @@ function init(){
               html += "<br /><br /><b>Population: </b><br />" + data.population;
             }
             
-            $jit.id('inner-details').innerHTML = html;  
+            $jit.id('inner-details').innerHTML = html; 
+           
+            sb.rotate(node, 'animate' , {
+              duration: 1000,
+              transition: $jit.Trans.Quart.easeInOut
+            });
+
           }
         },
         Tips: {
