@@ -50,7 +50,6 @@ class DataSorter
           "$angularWidth" => 0,
           "description" => continent.description,
           "$color" => continent.color,
-          "population" => 0
         },
         "children" => continent.countries.map { |country| {
           "id" => country.id,
