@@ -6,6 +6,9 @@ function init(){
           overridable: true,
         },
         levelDistance: 90,
+        Label: {
+          type: 'Native'
+        }
         
     });
 
