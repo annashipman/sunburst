@@ -5,6 +5,8 @@ function init(){
         Node: {
           overridable: true,
         },
+        levelDistance: 90,
+        
     });
 
     sb.loadJSON(json);
