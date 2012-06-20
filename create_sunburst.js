@@ -24,7 +24,13 @@ function init(){
             $jit.id('inner-details').innerHTML = html;  
           }
         },
-        
+        Tips: {
+          enable: true,
+          onShow: function(tip, node) {
+            var html = "<div class=\"tip-title\">" + node.name + "</div>"; 
+            tip.innerHTML = html;
+          }
+        },
     });
 
     sb.loadJSON(json);
