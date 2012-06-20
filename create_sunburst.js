@@ -21,7 +21,9 @@ function init(){
               html += "<br /><br /><b>Population: </b><br />" + data.population;
             }
             
-            $jit.id('inner-details').innerHTML = html; 
+            $jit.id('inner-details').innerHTML = html;
+            
+            sb.tips.hide(); 
            
             sb.rotate(node, 'animate' , {
               duration: 1000,
