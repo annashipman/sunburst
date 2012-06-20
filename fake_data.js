@@ -13,7 +13,6 @@ var json =
         "data": {
             "description":"some stuff about project A",
             "$color":"#3366FF",
-            "size":24 
             },
         "children":[
                 {
@@ -22,12 +21,8 @@ var json =
                 "data": {
                     "project":"Project A",
                     "$angularWidth":2,
-                    "type":"Bug",
-                    "startDate":"02/04/2012",
-                    "endDate":"04/04/2012",
-                    "timeTaken": 2,
                     "$color":"#00B8F5",
-                    "size":2 },
+                    "population":2 },
                 "children":[]
                 },
                 {
@@ -36,12 +31,8 @@ var json =
                 "data": { 
                     "project":"Project A",
                     "$angularWidth":4,
-                    "type":"Build Maintenance",
-                    "startDate":"19/03/2012",
-                    "endDate":"23/03/2012",
-                    "timeTaken":4,
                     "$color":"#00B8F5", 
-                    "size":4
+                    "population":4
                     },
                 "children":[]
                 }],
@@ -60,11 +51,8 @@ var json =
                 "data": {
                     "project":"Project B",
                     "$angularWidth":2,
-                    "type":"Bug",
-                    "startDate":"02/04/2012",
-                    "endDate":"04/04/2012",
-                    "timeTaken": 2,
                     "$color":"#FFDE00",
+                    "population":4
                     },
                 "children":[]
                 },
@@ -74,11 +62,8 @@ var json =
                 "data": { 
                     "project":"Project B",
                     "$angularWidth":4,
-                    "type":"Build Maintenance",
-                    "startDate":"19/03/2012",
-                    "endDate":"23/03/2012",
-                    "timeTaken":4,
                     "$color":"#FFDE00", 
+                    "population":4
                     },
                 "children":[]
                 }],
